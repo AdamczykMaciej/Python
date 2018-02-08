@@ -1,0 +1,7 @@
+content=open("example.txt",'w')
+content.write("Line 1\n")
+content.write("Line 2\n")
+content.write("Line 3\n")
+content.close()
+content=open("example.txt",'a')
+content.write("Line 4\n")
